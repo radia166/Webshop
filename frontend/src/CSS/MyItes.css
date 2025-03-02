@@ -1,0 +1,49 @@
+.my-items-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.items-table th, .items-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.items-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.items-table td a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.items-table td a:hover {
+  color: #007bff;
+}
+
+.sold-status {
+  color: red;
+  font-weight: bold;
+}
+
+.on-sale-status {
+  color: green;
+  font-weight: bold;
+}

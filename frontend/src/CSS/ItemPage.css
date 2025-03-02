@@ -1,0 +1,151 @@
+.item-page {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container {
+  max-width: 100%;
+  border-radius: 5px;
+  border: solid 1px #dadada;
+  height: 300px;
+  background: #F5EEE6;
+}
+
+.img-logo{
+  width: 170px;
+  position: relative;
+  left: 240px;
+  top: 60px;
+}
+
+.item-details1 {
+  flex: 1;
+}
+
+.item-details1 h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item-details1 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.item-details1  {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.add-to-cart-button1 {
+  background-color: #ff731f;
+  color: white;
+  font :bold 14px/20px "Arial";
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-to-cart-button1:hover {
+  background-color: #ff5050;
+}
+
+.edit-button {
+  background-color: #59D5E0;
+  color: white;
+  font :bold 14px/20px "Arial";
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  background-color: #5ed6ac;
+}
+
+.save-button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font :bold 14px/20px "Arial";
+  background-color: #A8CD89;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-button:hover {
+  background-color: #355F2E;
+}
+
+.cancel-button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font :bold 14px/20px "Arial";
+  background-color: #FF748B;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cancel-button:hover {
+  background-color: #fa416e;
+}
+
+
+.related-items {
+  margin-top: 50px;
+}
+
+.related-items h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.related-items-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.related-item {
+  min-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: wheat;
+
+}
+
+.related-img {
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+.related-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}

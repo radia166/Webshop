@@ -1,0 +1,97 @@
+.checkout-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.checkout-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.delivery-address {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 350px;
+}
+
+.contact-info{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 150px;
+  top: -10px;
+  position: relative;
+}
+
+.order-summary {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-button {
+  background-color: #7d6afd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #6217da;
+}
+
+.back-to-cart {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-to-cart:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+}

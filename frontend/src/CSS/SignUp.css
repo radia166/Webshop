@@ -1,0 +1,97 @@
+/* General Page Styling */
+.signup-page {
+  background-color: #FFCF96;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  background-color: white;
+  width: 400px;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.signup-header {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-subtitle {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.join-button {
+  background-color: #FF8080;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.join-button:hover {
+  background-color: #CDFADB;
+}
+
+.divider {
+  margin: 1rem 0;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ddd;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+
+.signin-link {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.signin-link a {
+  color: #FF8080;
+  font-family: "Segoe UI", system-ui, sans-serif, bold;
+  text-decoration: none;
+}

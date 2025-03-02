@@ -1,0 +1,160 @@
+.cart-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.empty-cart-message {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 50px;
+}
+
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cart-items {
+  flex: 2 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 1fr 0.5fr;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-details {
+  font-size: 16px;
+}
+
+.item-details h2 {
+  margin: 0;
+}
+
+.item-subtext {
+  color: #888;
+  font-size: 14px;
+}
+
+.item-price,
+.item-total {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-quantity button {
+  padding: 5px 10px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.item-quantity input {
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+  top: 7px;
+}
+
+.remove-item {
+  font-size: 16px;
+  color: #ff6347;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cart-summary {
+  flex: 1;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-summary h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-summary p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #809D3C;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.checkout-button:hover {
+  background-color: #5D8736;
+}
+
+.loginlink {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff8225;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.loginlink:hover {
+  background-color: #EB5A3C;
+}
+
+.signuplink {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff8225;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.signuplink:hover {
+  background-color: #EB5A3C;
+}
+
