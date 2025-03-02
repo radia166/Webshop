@@ -17,43 +17,45 @@ Frontend:
    - Implemented using React.
 
 Requirements :
-	- Automatic Database Population:
+
+	Automatic Database Population:
 	    - Allows database to be reset and populated with test data via the landing page.
 	    - first 3 user (testuser1,testuser2,testuser3) are seller (password : pass1,pass2,pass3)
 	- rest (testuser4,5,6) are buyer
 	    - Done
 
-Browse Items:
+
+	Browse Items:
 	    - List all available items with title, description, price, and date added.
 	    - Done
 
-Create Account:
+	Create Account:
 	    - Register a new user with username, email, and password.
 	    - done
 
-Login:
+	Login:
 	    - login using username and password.
 	    - Admin : admin , pw: admin0606
 	    - done
 
-Add item
+	Add item
 	    - Authenticate user(seller, admin) can add a new item to sell
 	    - Backend - done
 	    - frontend - done
 
-Add to cart
+	Add to cart
 	    - An authenticated user can select an item for purchase by adding it to the cart. -Done
 	    - A user (buyer or seller) cannot add to the cart its own items - Done
 
-Search:
+	Search:
 	    - Any user can search for items by title
 	    - done
 
-Remove from the cart:
+	Remove from the cart:
 	    - an item can be removed from the cart by the buyer.
 	    - done
 
-Pay:
+	Pay:
 	    - the buyer sees the list of items to be purchased. 
 	-Done
 
@@ -72,24 +74,24 @@ Pay:
 	        SOLD. The bought items are listed as the buyer’s item (but they are not
 	        available for sale). - Done
 
-Routing:
+	Routing:
 	    - The Shop page should be implemented as a SPA.
 	- done
 
-Edit Account:
+	Edit Account:
 	    - an authenticated user should be able to change the password of the account by
 	     providing the old and the new password - Done
 
-Display inventory:
+	Display inventory:
 	    - an authenticated user should be able to visualise his/her own items
 	        displayed in 3 categories: on sale, sold, and purchased. - Done 
 
-Edit item:
+	Edit item:
 	    - the seller of an item can edit the price of the item as long as the item is on
 	    sale (available), via the Edit button, regardless of the item being added to any other
 	    buyers’ carts. - Done
 
-Additional 
+	Additional 
 	- check out page
 	- Order history 
 	- Inventory page for seller
@@ -107,23 +109,24 @@ How to Run the Project
 Backend Setup
 
 Create a virtual environment in Myshop folder
-	python -m venv venv
+		python -m venv venv
 
 Activate the Virtual Environment
-    source venv/bin/activate     or     venv\Scripts\activate(windows)
+	    source venv/bin/activate     or     venv\Scripts\activate(windows)
 
 
 Navigate to the backend:
-    cd backend
+	    cd backend
 Install Django and Required Libraries (requirement.txt) :
 
-  pip install -r requirements.txt
+	  pip install -r requirements.txt
 or
 
-  pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+	  pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+
 Navigate to webshop_api folder:
 
-cd webshop_api
+	cd webshop_api
 Start the Django development server:
 
 python (or python3) manage.py runserver
@@ -137,5 +140,5 @@ cd frontend
 npm install
 3.Start the React development server:
 
-npm start
+	npm start
 The frontend will be accessible at http://localhost:3000.
