@@ -17,82 +17,82 @@ Frontend:
    - Implemented using React.
 
 Requirements :
-Automatic Database Population:
-    - Allows database to be reset and populated with test data via the landing page.
-    - first 3 user (testuser1,testuser2,testuser3) are seller (password : pass1,pass2,pass3)
-- rest (testuser4,5,6) are buyer
-    - Done
+	- Automatic Database Population:
+	    - Allows database to be reset and populated with test data via the landing page.
+	    - first 3 user (testuser1,testuser2,testuser3) are seller (password : pass1,pass2,pass3)
+	- rest (testuser4,5,6) are buyer
+	    - Done
 
 Browse Items:
-    - List all available items with title, description, price, and date added.
-    - Done
+	    - List all available items with title, description, price, and date added.
+	    - Done
 
 Create Account:
-    - Register a new user with username, email, and password.
-    - done
+	    - Register a new user with username, email, and password.
+	    - done
 
 Login:
-    - login using username and password.
-    - Admin : admin , pw: admin0606
-    - done
+	    - login using username and password.
+	    - Admin : admin , pw: admin0606
+	    - done
 
 Add item
-    - Authenticate user(seller, admin) can add a new item to sell
-    - Backend - done
-    - frontend - done
+	    - Authenticate user(seller, admin) can add a new item to sell
+	    - Backend - done
+	    - frontend - done
 
 Add to cart
-    - An authenticated user can select an item for purchase by adding it to the cart. -Done
-    - A user (buyer or seller) cannot add to the cart its own items - Done
+	    - An authenticated user can select an item for purchase by adding it to the cart. -Done
+	    - A user (buyer or seller) cannot add to the cart its own items - Done
 
 Search:
-    - Any user can search for items by title
-    - done
+	    - Any user can search for items by title
+	    - done
 
 Remove from the cart:
-    - an item can be removed from the cart by the buyer.
-    - done
+	    - an item can be removed from the cart by the buyer.
+	    - done
 
 Pay:
-    - the buyer sees the list of items to be purchased. 
--Done
+	    - the buyer sees the list of items to be purchased. 
+	-Done
 
-    - When pressing the “PAY” button: (proceed to checkout in the webshop)
-        a. If the price of an item has changed for any item in the cart, the cart
-        transaction is halted and
-            i. a notification will be shown next to the item, and
-            ii. the displayed price should be updated to the new price. - done
+	    - When pressing the “PAY” button: (proceed to checkout in the webshop)
+	        a. If the price of an item has changed for any item in the cart, the cart
+	        transaction is halted and
+	            i. a notification will be shown next to the item, and
+	            ii. the displayed price should be updated to the new price. - done
 
-        b. If an item is no longer available when the user clicks 'Pay', the whole cart
-        transaction is halted and a notification is shown to the user without removing
-        the item from the cart. The user can manually remove the unavailable items
-        and then Pay. - Done
-
-        c. On a successful Pay transaction, the status of each item in the cart becomes
-        SOLD. The bought items are listed as the buyer’s item (but they are not
-        available for sale). - Done
+	        b. If an item is no longer available when the user clicks 'Pay', the whole cart
+	        transaction is halted and a notification is shown to the user without removing
+	        the item from the cart. The user can manually remove the unavailable items
+	        and then Pay. - Done
+	
+	        c. On a successful Pay transaction, the status of each item in the cart becomes
+	        SOLD. The bought items are listed as the buyer’s item (but they are not
+	        available for sale). - Done
 
 Routing:
-    - The Shop page should be implemented as a SPA.
-- done
+	    - The Shop page should be implemented as a SPA.
+	- done
 
 Edit Account:
-    - an authenticated user should be able to change the password of the account by
-     providing the old and the new password - Done
+	    - an authenticated user should be able to change the password of the account by
+	     providing the old and the new password - Done
 
 Display inventory:
-    - an authenticated user should be able to visualise his/her own items
-        displayed in 3 categories: on sale, sold, and purchased. - Done 
+	    - an authenticated user should be able to visualise his/her own items
+	        displayed in 3 categories: on sale, sold, and purchased. - Done 
 
 Edit item:
-    - the seller of an item can edit the price of the item as long as the item is on
-    sale (available), via the Edit button, regardless of the item being added to any other
-    buyers’ carts. - Done
+	    - the seller of an item can edit the price of the item as long as the item is on
+	    sale (available), via the Edit button, regardless of the item being added to any other
+	    buyers’ carts. - Done
 
 Additional 
-- check out page
-- Order history 
-- Inventory page for seller
+	- check out page
+	- Order history 
+	- Inventory page for seller
 
 Prerequisites
 
